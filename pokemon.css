@@ -1,0 +1,43 @@
+body{
+  width: 1280px;
+  background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/07/pokemon-unite-2414165.jpg");
+  background-size: cover;
+}
+div.contenedor{
+  grid-template-rows: auto;
+  background-color: rgba(252, 252, 252, 0);
+  text-align: center;
+  align-items:center;
+  
+}
+
+div.elemento{
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  grid-row: auto;
+  height: 300px;
+  margin: auto;
+  padding: 10px;
+}
+p{
+  color: rgb(255, 255, 255);
+  display: block
+}
+
+button{
+  display: block;
+  background-color: darkblue;
+}
+
+.pokemonInfo{
+  margin: auto;
+}
+
+div.card{
+  background-color: rgba(204, 0, 0, 0.527);
+  padding: 10px;
+}
+
+div.contenedorImg{
+  background-color: aliceblue;
+}
